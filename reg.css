@@ -1,0 +1,82 @@
+/* Apply styles to the body */
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+div {
+  margin-left: 400px;
+  border: 2px dashed red;
+  width: 700px;
+  float: left;
+  top: 200px;
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the table header */
+th {
+  text-align: center;
+  font-size: 24px;
+  color: blue; /* Change the color to your preference */
+  padding: 10px;
+  border-bottom: 2px solid blue;
+}
+
+/* Style the table cells */
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change submit button color on hover */
+input[type="submit"]:hover {
+  background-color: darkblue;
+}
+
+/* Apply additional styles for specific inputs if needed */
+#fname,
+#lname {
+  font-size: 18px;
+  color: green; /* Change the color to your preference */
+}
+
+#psw {
+  font-size: 16px;
+}
+
+#dob,
+#em,
+#phno,
+#pc,
+#uname {
+  font-size: 14px;
+}
